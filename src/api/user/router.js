@@ -12,7 +12,7 @@ router.get('/userdata', authenticateToken, controller.userdata)
 router.post('/imageupload',controller.sendimage)
 router.post('/video_Upload',controller.file_upload)
 router.post('/forgetPassword',controller.forgetPassword)
-test
 
+// 
 module.exports = router;
 
